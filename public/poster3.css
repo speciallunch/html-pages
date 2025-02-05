@@ -1,0 +1,88 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+body {
+  background-color: #dde1d4;
+  padding: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  width: 100%;
+  height: 100%;
+}
+
+.gray-box {
+  display: grid;
+  background-color: #dae7de;
+  grid-column: span 2;
+  grid-row: span 2;
+  color: red;
+  font-size: 100px;
+  font-weight: 500;
+  place-items: center;
+}
+
+.green-box {
+  display: grid;
+  background-color: #008a69;
+  grid-column: span 2;
+  grid-row: span 2;
+  color: white;
+  font-size: 100px;
+  font-weight: 500;
+  place-items: center;
+}
+
+.orange-box {
+  display: grid;
+  background-color: #f44607;
+  grid-column: span 2;
+  grid-row: span 2;
+  color: white;
+  font-size: 100px;
+  font-weight: 500;
+  place-items: center;
+}
+
+.pink-box {
+  display: grid;
+  background-color: #f7abc5;
+  color: red;
+  font-size: 50px;
+  font-weight: 500;
+  place-items: center;
+}
+
+.purple-box {
+  display: grid;
+  background-color: #5f5fa9;
+  color: white;
+  font-size: 50px;
+  font-weight: 500;
+  place-items: center;
+}
+
+.yellow-box {
+  display: grid;
+  background-color: #ffc028;
+  color: red;
+  font-size: 50px;
+  font-weight: 500;
+  place-items: center;
+}
+
+.peach-box {
+  display: grid;
+  background-color: #f97374;
+  color: white;
+  font-size: 50px;
+  font-weight: 500;
+  place-items: center;
+}
